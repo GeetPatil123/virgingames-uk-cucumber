@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3896547200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "I should navigate to the homepage successfully",
+        "description": "",
+        "id": "i-am-on-the-homepage;i-should-navigate-to-the-homepage-successfully",
+        "after": [
+          {
+            "result": {
+              "duration": 704391200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 234231600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I click on accept cookies",
+            "match": {
+              "location": "HomePageSteps.iClickOnAcceptCookies()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 97200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on the Homepage",
+            "match": {
+              "location": "HomePageSteps.iAmOnTheHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60861100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I verify Welcome to Virgin Games text is displayed",
+            "match": {
+              "location": "HomePageSteps.iVerifyWelcomeToVirginGamesTextIsDisplayed()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 375825800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on join now",
+            "match": {
+              "location": "HomePageSteps.iClickOnJoinNow()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52407600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am Verifying Pardon Our Interruption",
+            "match": {
+              "location": "HomePageSteps.iAmVerifyingPardonOurInterruption()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          },
+          {
+            "line": 5,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "I am on the Homepage",
+    "description": "\r\nAs a user I want verify Homepage functionalities",
+    "id": "i-am-on-the-homepage",
+    "keyword": "Feature",
+    "uri": "Homepage.feature"
+  }
+]
